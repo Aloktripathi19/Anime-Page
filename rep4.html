@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Fifth</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .a1 {
+            height: 35vh;
+            width: 100%;
+            background-color: grey;
+            display: flex;
+        }
+
+        .i1 {
+            height: 120px;
+            width: 130px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+
+        hr {
+            border: 2px solid white;
+        }
+
+        .a2 {
+            display: flex;
+            height: 7vh;
+            width: 100%;
+            background-color: grey;
+            justify-content: space-evenly;
+        }
+
+        .a2 a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+        h4{
+            margin-top: 20px;
+            margin-left: 42%;
+        }
+        .c1,
+        .c4 {
+            color: white;
+            height: 7vh;
+            width: 180px;
+            font-size: 25px;
+        }
+
+        .c2 {
+            color: white;
+            height: 7vh;
+            width: 200px;
+            font-size: 25px;
+        }
+
+        .c3,
+        .c5 {
+            color: white;
+            height: 7vh;
+            width: 150px;
+            font-size: 25px;
+        }
+
+        .c1:hover,
+        .c2:hover,
+        .c3:hover,
+        .c4:hover,
+        .c5:hover {
+            background-color: red;
+        }
+        h4{
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .d1{
+            width: 40%;
+            margin-left: 28%;
+            margin-top: 15px;
+        }
+        .d2{
+            margin-top: 15px;
+            margin-left: 37%;
+        }
+        .a4 {
+            height: 60vh;
+            width: 100%;
+            background-color: grey;
+            margin-top: 90px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer {
+            display: flex;
+            margin-left: 220px;
+            margin-top: 100px;
+            gap: 250px;
+        }
+
+        span {
+            color: white;
+            font-size: 21px;
+        }
+
+        .f2 {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 40px;
+            margin-left: 260px;
+        }
+
+        .f2 a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .icon {
+            display: flex;
+            margin-left: 1000px;
+            margin-top: -90px;
+            gap: 20px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+        .f3 {
+            height: 40px;
+            width: 360px;
+            text-indent: 120px;
+            margin-left: 510px;
+            margin-top: -10px;
+            border: none;
+        }
+
+        .f4 {
+            height: 40px;
+            width: 180px;
+            border: 2px solid white;
+            background-color: grey;
+            border-radius: 40px;
+            margin-left: 590px;
+            margin-top: 30px;
+            color: white;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a1">
+        <img src="guy.png" alt="error" class="i1">
+        <h1 style="color: white; margin-top: 95px; margin-left: 18px;">Monkey.D.Luffy</h1>
+    </div>
+    <hr>
+    <div class="a2">
+        <a href="rep1.html" class="c1">Devil Fruit</a>
+        <a href="rep2.html" class="c2">Transformation</a>
+        <a href="rep3.html" class="c3">Haki</a>
+        <a href="rep4.html" class="c4">Contact</a>
+        <a href="https://www.google.com/" class="c5">Help</a>
+    </div>
+    <hr>
+   <h1 style="margin-left: 40%; margin-top: 15px;">Contact Us</h1>
+   <h4>First Name :</h4>
+   <input type="text" placeholder="Enter Your Name" class="d1">
+   <h4>Last Name :</h4>
+   <input type="text" placeholder="Enter Your Name" class="d1">
+   <div class="d2">
+   <label>Gender :</label> <input type="radio"><label>Male</label> <input type="radio"><label>Female</label> <input type="radio"><label>Other</label>
+   </div>
+   <h4>Enter Mail :</h4>
+   <input type="email" placeholder="Enter Mail" class="d1">
+   <h4>Problem or Feedback :</h4>
+   <input type="text" placeholder="Enter Your Name" class="d1"><br>
+   <input type="submit" style="margin-left: 45%; margin-top: 30px;">
+    <div class="a4">
+        <div class="footer">
+            <span>USEFUL LINKS</span>
+            <span>NEWSLETTER</span>
+            <span>Social Media</span>
+        </div>
+        <div class="f2">
+            <a href="#">About</a>
+            <a href="#">More</a>
+            <a href="#">Services</a>
+        </div>
+        <div class="icon"><i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i> <i
+                class="fa-brands fa-facebook"></i> <i class="fa-brands fa-whatsapp"></i></div>
+        <input type="email" placeholder="Your email address" class="f3">
+        <button class="f4">SUSCRIBE NOW</button>
+    </div>
+</body>
+
+</html>
